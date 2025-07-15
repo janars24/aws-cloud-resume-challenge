@@ -36,7 +36,7 @@ This project helped me:
 
 ## 📎 Live Demo
 
-🔗 [Visit My Resume Website](resume.saajiya.com)
+🔗 [Visit My Resume Website](https://resume.saajiya.com)
 
 ---
 
