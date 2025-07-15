@@ -246,7 +246,7 @@ async function updateCounter() {
     const response = await fetch("https://lqwgqqahw7hphvjc47iwbzk2fq0zluza.lambda-url.ap-south-1.on.aws/");
     const data = await response.json();
     console.log("Response from Lambda:", data);
-    counter.innerHTML = `Views: ${data.views}`;
+    counter.innerHTML = ` ${data.views}`;
   } catch (error) {
     console.error("Failed to fetch view count:", error);
     counter.innerHTML = "N/A";
