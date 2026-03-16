@@ -1,0 +1,119 @@
+.certifications {
+  position: relative;
+  z-index: 2;
+  background-color: var(--bg-secondary);
+}
+
+.cert-edu-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+  .cert-edu-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sub-heading {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.cert-card {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: var(--transition-normal);
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-secondary);
+}
+
+.cert-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: var(--glass-bg);
+}
+
+.aws-icon {
+  background: linear-gradient(135deg, #FF9900, #FFB84D);
+}
+
+.oci-icon {
+  background: linear-gradient(135deg, #F80000, #C74634);
+}
+
+.terraform-icon {
+  background: linear-gradient(135deg, #5C4EE5, #8479FF);
+}
+
+.cert-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.cert-id {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-family: monospace;
+  background: rgba(0,0,0,0.05);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  margin-top: auto;
+}
+
+.edu-card {
+  padding: 2.5rem 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: var(--transition-normal);
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-primary);
+}
+
+.edu-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.edu-degree {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.edu-university {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.edu-year {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
